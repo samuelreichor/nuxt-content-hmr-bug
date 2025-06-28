@@ -4,7 +4,7 @@ export default defineContentConfig({
   collections: {
     content: defineCollection({
       type: 'page',
-      source: '**',
+      source: 'test/**/*.md', // does not work ("**" works)
     }),
   },
 })
